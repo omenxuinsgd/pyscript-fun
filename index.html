@@ -16,10 +16,9 @@
     Hello world! <br>
     This is the current date and time, as computed by Python:
     <py-script>
-      from IPython.display import display
       from datetime import datetime
       now = datetime.now()
-      display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+      print(now.strftime("%m/%d/%Y, %H:%M:%S"))
     </py-script>
   </body>
 </html>
